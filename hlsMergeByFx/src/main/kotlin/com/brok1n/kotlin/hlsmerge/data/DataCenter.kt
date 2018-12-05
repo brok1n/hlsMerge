@@ -15,6 +15,9 @@ class DataCenter {
     //输出默认路径  桌面
     var outDirPath = ""
 
+    //下载列表
+    var downloadList = ArrayList<String>()
+
     fun getUrl(url:String):String {
         return "http://${url}/bookstore/api${url}"
     }

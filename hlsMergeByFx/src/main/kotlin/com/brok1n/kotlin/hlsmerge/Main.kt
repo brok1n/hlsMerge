@@ -33,12 +33,14 @@ class Main : Application() {
         primaryStage.initStyle(StageStyle.UNDECORATED);//设定窗口无边框
 
         primaryStage.icons.add(Image(javaClass.getResourceAsStream("/img/logo128.jpg")))
+        primaryStage.isResizable = false
 
 
         val homePageController = fxmlLoader.getController<HomePageController>()
         homePageController.scene = primaryStage.scene
         homePageController.stage = primaryStage
-        primaryStage.isResizable = false
+
+        homePageController.init()
 
 //        val mainPageController = fxmlLoader.getController<MainPageController>()
 //        mainPageController.scene = primaryStage.scene
