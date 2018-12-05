@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="600.0" maxWidth="350.0" minHeight="600.0" minWidth="350.0" prefHeight="600.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.brok1n.kotlin.hlsmerge.controller.HomePageController">
+   <children>
+      <VBox maxHeight="600.0" maxWidth="350.0" minHeight="600.0" minWidth="350.0" prefHeight="600.0" prefWidth="350.0">
+         <children>
+            <Pane fx:id="title_pane" prefHeight="45.0" prefWidth="350.0" style="-fx-background-color: #46B9F0;">
+               <children>
+                  <Label layoutX="14.0" layoutY="11.0" prefHeight="15.0" prefWidth="200.0" text="M3U8下载器" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="279.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../img/mini_btn_bg.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="22.0" fitWidth="31.0" layoutX="315.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../img/close_btn_bg.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="24.0" fitWidth="13.0" layoutX="308.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../img/close_btn_split_line.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
