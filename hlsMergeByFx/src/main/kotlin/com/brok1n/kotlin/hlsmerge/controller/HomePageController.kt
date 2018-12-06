@@ -10,6 +10,7 @@ import javafx.scene.control.Alert
 import javafx.scene.control.Alert.AlertType
 import javafx.scene.control.ButtonType
 import javafx.scene.control.CheckBox
+import javafx.scene.image.ImageView
 import javafx.scene.layout.Pane
 import javafx.stage.Stage
 
@@ -36,8 +37,34 @@ open class HomePageController {
     @FXML
     lateinit var historyBtn: Pane
 
+    //列表为空的提示图片
+    @FXML
+    lateinit var emptyTipImg: ImageView
+
+    //新建按钮
+    @FXML
+    lateinit var createBtn: Pane
+
+    //开始按钮
+    @FXML
+    lateinit var startBtn: ImageView
+
+    //暂停按钮
+    @FXML
+    lateinit var pauseBtn: ImageView
+
+    //删除按钮
+    @FXML
+    lateinit var deleteBtn: ImageView
+
     fun init() {
         WindowDragListener(stage).enableDrag(titlePane)
+
+
+        if ( DataCenter.instance.downloadList.isEmpty() ) {
+            emptyTipImg.isVisible = true
+        }
+
     }
 
     /**
@@ -92,6 +119,7 @@ open class HomePageController {
 
         //切换界面
 
+
     }
 
     /**
@@ -99,11 +127,46 @@ open class HomePageController {
      * */
     @FXML
     fun onHistoryBtnClicked() {
-        "历史按钮被点击  切换到历史界面"
+        "历史按钮被点击  切换到历史界面".log()
         downloadBtn.style = "-fx-background-color: #C3E6FF"
         historyBtn.style = "-fx-background-color:  #DDEEFF"
 
 
+    }
+
+    /**
+     * 新建按钮被点击
+     * */
+    @FXML
+    fun onCreateBtnClicked(){
+        "新建按钮被点击".log()
+
+
+    }
+
+    /**
+     * 开始按钮被点击
+     * */
+    @FXML
+    fun onStartBtnClicked(){
+        "开始按钮被点击".log()
+    }
+
+    /**
+     * 暂停按钮被点击
+     * */
+    @FXML
+    fun onPauseBtnClicked(){
+        "暂停按钮被点击".log()
+
+    }
+
+    /**
+     * 删除按钮被点击
+     * */
+    @FXML
+    fun onDeleteBtnClicked(){
+        "删除按钮被点击".log()
     }
 
     fun String.out(){

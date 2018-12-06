@@ -1,6 +1,7 @@
 package com.brok1n.kotlin.hlsmerge.data
 
 import sun.rmi.runtime.Log
+import java.util.concurrent.ConcurrentLinkedQueue
 import java.util.regex.Pattern
 
 
@@ -16,7 +17,10 @@ class DataCenter {
     var outDirPath = ""
 
     //下载列表
-    var downloadList = ArrayList<String>()
+    var downloadList = ConcurrentLinkedQueue<String>()
+
+    //历史列表
+    var historyList = ConcurrentLinkedQueue<String>()
 
     fun getUrl(url:String):String {
         return "http://${url}/bookstore/api${url}"

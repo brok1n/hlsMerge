@@ -57,7 +57,7 @@
                   </HBox>
                   <Pane maxHeight="30.0" maxWidth="350.0" minHeight="30.0" minWidth="350.0" prefHeight="30.0" prefWidth="350.0" style="-fx-background-color: #BFE1F2;">
                      <children>
-                        <Pane maxHeight="30.0" maxWidth="70.0" minHeight="30.0" minWidth="70.0" prefHeight="30.0" prefWidth="70.0">
+                        <Pane fx:id="createBtn" maxHeight="30.0" maxWidth="70.0" minHeight="30.0" minWidth="70.0" onMouseClicked="#onCreateBtnClicked" prefHeight="30.0" prefWidth="70.0">
                            <children>
                               <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="14.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -68,24 +68,24 @@
                            </children>
                         </Pane>
                         <Pane layoutX="70.0" maxHeight="30.0" maxWidth="1.0" minHeight="30.0" minWidth="1.0" prefHeight="30.0" prefWidth="1.0" style="-fx-background-color: #B0CEDC;" />
-                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="80.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="startBtn" fitHeight="20.0" fitWidth="20.0" layoutX="80.0" layoutY="5.0" onMouseClicked="#onStartBtnClicked" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../../../../img/start_btn_disable.jpg" />
                            </image>
                         </ImageView>
-                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="105.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="pauseBtn" fitHeight="20.0" fitWidth="20.0" layoutX="105.0" layoutY="5.0" onMouseClicked="#onPauseBtnClicked" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../../../../img/pause_btn_disable.jpg" />
                            </image>
                         </ImageView>
-                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="130.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="deleteBtn" fitHeight="20.0" fitWidth="20.0" layoutX="130.0" layoutY="5.0" onMouseClicked="#onDeleteBtnClicked" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../../../../img/delete_btn.jpg" />
                            </image>
                         </ImageView>
                      </children>
                   </Pane>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="95.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="emptyTipImg" fitHeight="150.0" fitWidth="200.0" layoutX="95.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true" visible="false">
                      <image>
                         <Image url="@../../../../img/empty_download_list_img.jpg" />
                      </image>
