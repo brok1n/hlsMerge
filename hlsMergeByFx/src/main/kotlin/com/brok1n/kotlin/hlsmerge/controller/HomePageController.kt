@@ -1,5 +1,6 @@
 package com.brok1n.kotlin.hlsmerge.controller
 
+import com.brok1n.kotlin.hlsmerge.ModelWindow
 import com.brok1n.kotlin.hlsmerge.WindowDragListener
 import com.brok1n.kotlin.hlsmerge.data.DataCenter
 import com.brok1n.kotlin.hlsmerge.log
@@ -16,7 +17,6 @@ import javafx.stage.Stage
 
 
 open class HomePageController {
-
 
     lateinit var scene: Scene
     lateinit var stage: Stage
@@ -141,6 +141,7 @@ open class HomePageController {
     fun onCreateBtnClicked(){
         "新建按钮被点击".log()
 
+        ModelWindow.instance.showAddNewTaskWindow( stage )
 
     }
 

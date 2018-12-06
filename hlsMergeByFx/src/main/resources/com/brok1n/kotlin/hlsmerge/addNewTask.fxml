@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="230.0" maxWidth="465.0" minHeight="230.0" minWidth="465.0" prefHeight="230.0" prefWidth="465.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.brok1n.kotlin.hlsmerge.controller.AddNewTaskPageController">
+   <children>
+      <Pane fx:id="titlePane" prefHeight="45.0" prefWidth="465.0" style="-fx-background-color: #46B9F0;">
+         <children>
+            <Label layoutX="14.0" layoutY="11.0" prefHeight="15.0" prefWidth="157.0" text="新建下载" textFill="#fcfcfc">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="22.0" fitWidth="31.0" layoutX="430.0" layoutY="4.0" onMouseClicked="#onCloseBtnClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/close_btn_bg.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="36.0" fitWidth="21.0" layoutX="419.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/close_btn_split_line.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane prefHeight="140.0" prefWidth="465.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" layoutX="10.0" layoutY="25.0" prefHeight="15.0" prefWidth="50.0" text="来源:" />
+            <TextField layoutX="66.0" layoutY="21.0" prefHeight="23.0" prefWidth="385.0" />
+            <Label alignment="CENTER_RIGHT" layoutX="10.0" layoutY="82.0" prefHeight="15.0" prefWidth="50.0" text="保存到:" />
+            <TextField layoutX="66.0" layoutY="78.0" prefHeight="23.0" prefWidth="341.0" />
+            <Button layoutX="412.0" layoutY="78.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="39.0" text="..." />
+         </children>
+      </Pane>
+      <Pane prefHeight="46.0" prefWidth="465.0" style="-fx-background-color: #E3EEF4;">
+         <children>
+            <Button layoutX="388.0" layoutY="10.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="64.0" text="下载" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

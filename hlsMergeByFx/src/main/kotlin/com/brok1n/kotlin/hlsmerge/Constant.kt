@@ -7,6 +7,7 @@ import okhttp3.OkHttpClient
 import java.util.concurrent.TimeUnit
 
 val APP_TITLE = "HLS(M3U8)视频下载合并工具 V0.0.1 by brok1n"
+val ADD_TASK_WINDOW_TITLE = "新建下载"
 
 
 val jsonType = MediaType.parse("application/json; charset=utf-8")
