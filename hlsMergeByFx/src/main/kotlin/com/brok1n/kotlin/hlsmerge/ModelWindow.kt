@@ -38,7 +38,7 @@ open class ModelWindow {
 
         addNewTaskPageController.init()
 
-        window.x = owner.x - 57
+        window.x = owner.x - 60
         window.y = owner.y + 185
 
         addNewTaskWindow = window
