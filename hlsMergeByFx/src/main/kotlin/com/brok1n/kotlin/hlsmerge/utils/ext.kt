@@ -49,6 +49,25 @@ fun md5_16bit(text:String):String {
     return str
 }
 
+fun toRemainTime( time:Long ):String {
+    if ( time <= 0 ) {
+        return "00:00:00"
+    }
+    val h = time / 1000 / 60 / 60
+    val m = time / 1000 / 60 % 60
+    val s = time / 1000 % 60
+    return "${fill(h, 2)}:${fill(m, 2)}:${fill(s, 2)}"
+}
+fun fill(d:Number, len:Int):String {
+    val tmpCount = len - "$d".length
+    if ( tmpCount <= 0 ) return "$d"
+    var tmpStr = ""
+    for ( i in 1..tmpCount){
+        tmpStr += "0"
+    }
+    return tmpStr + d
+}
+
 fun md5(text:String ):String {
     try {
         //获取md5加密对象

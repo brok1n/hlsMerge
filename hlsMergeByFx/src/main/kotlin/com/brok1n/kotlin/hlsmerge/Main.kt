@@ -25,7 +25,7 @@ class Main : Application() {
         DataCenter.instance.outDirPath = fsv.homeDirectory.absolutePath
         println(DataCenter.instance.outDirPath)
 
-        val fxmlLoader = FXMLLoader(javaClass.getResource("homePage.fxml"))
+        val fxmlLoader = FXMLLoader(javaClass.getResource("/fxml/homePage.fxml"))
         val root = fxmlLoader.load<Parent>()
         primaryStage.title = APP_TITLE
 //        primaryStage.scene = Scene(root, 800.0, 600.0)

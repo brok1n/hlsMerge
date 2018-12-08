@@ -16,7 +16,7 @@ open class ModelWindow {
 
     fun showAddNewTaskWindow(owner: Stage) {
 
-        val fxmlLoader = FXMLLoader(javaClass.getResource("../addNewTask.fxml"))
+        val fxmlLoader = FXMLLoader(javaClass.getResource("/fxml/addNewTask.fxml"))
         val root = fxmlLoader.load<Parent>()
 
         val window = Stage()

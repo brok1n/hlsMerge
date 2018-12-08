@@ -4,6 +4,7 @@ import com.brok1n.kotlin.hlsmerge.utils.ModelWindow
 import com.brok1n.kotlin.hlsmerge.SELECT_OUT_DIR_TITLE
 import com.brok1n.kotlin.hlsmerge.utils.WindowDragListener
 import com.brok1n.kotlin.hlsmerge.data.DataCenter
+import com.brok1n.kotlin.hlsmerge.data.DownloadTask
 import com.brok1n.kotlin.hlsmerge.utils.log
 import javafx.fxml.FXML
 import javafx.scene.Scene
@@ -13,7 +14,9 @@ import javafx.scene.layout.Pane
 import javafx.scene.paint.Color
 import javafx.stage.DirectoryChooser
 import javafx.stage.Stage
+import org.apache.commons.io.FilenameUtils
 import java.io.File
+import java.net.URL
 
 open class AddNewTaskPageController {
 
@@ -96,7 +99,18 @@ open class AddNewTaskPageController {
             downloadUrlTipLabel.text = ""
         }
 
-        DataCenter.instance.downloadList.add(url)
+        val task = DownloadTask(url)
+        try {
+            task.fileName = FilenameUtils.getName(URL(url).path)
+        }catch (e:Exception) {
+            //下载地址不合法
+            downloadUrlTipLabel.textFill = Color.web("#F72E12")
+            downloadUrlTipLabel.text = "下载地址不合法!"
+            return
+        }
+
+        DataCenter.instance.downloadList.add(task)
+
         DataCenter.instance.newTask = true
         "添加一条下载任务:$url".log()
 

@@ -20,12 +20,12 @@
             </Label>
             <ImageView fitHeight="22.0" fitWidth="31.0" layoutX="430.0" layoutY="4.0" onMouseClicked="#onCloseBtnClicked" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../img/close_btn_bg.jpg" />
+                  <Image url="@../img/close_btn_bg.jpg" />
                </image>
             </ImageView>
             <ImageView fitHeight="36.0" fitWidth="21.0" layoutX="419.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../img/close_btn_split_line.jpg" />
+                  <Image url="@../img/close_btn_split_line.jpg" />
                </image>
             </ImageView>
          </children>

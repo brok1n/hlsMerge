@@ -1,6 +1,7 @@
 package com.brok1n.kotlin.hlsmerge.net
 
 import com.google.gson.JsonObject
+import com.sun.org.apache.xpath.internal.operations.Bool
 
 
 interface INet {
@@ -23,7 +24,7 @@ interface INet {
     /**
      *  下载文件
      * */
-    fun download(url: String, outDir: String, listener: OnDownloadListener?)
+    fun download(url: String, outDir: String, listener: OnDownloadListener?):Boolean
 
 }
 
@@ -63,4 +64,17 @@ interface OnDownloadListener {
      * 下载失败
      */
     fun onDownloadFailed()
+}
+
+interface OnDownloadDetailListener: OnDownloadListener {
+
+    /**
+     * 文件大小
+     * */
+    fun onUpdateFileSize(size:Long)
+
+    /**
+     * 下载速度
+     * */
+    fun onUpdateSpeed(speed:Long)
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="downloadTaskItemPane" maxHeight="100.0" maxWidth="350.0" minHeight="72.0" minWidth="350.0" prefHeight="72.0" prefWidth="350.0" style="-fx-background-color: #CBE3ED;" styleClass="list-cell" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="fileNameLabel" layoutX="10.0" layoutY="11.0" prefHeight="15.0" prefWidth="244.0" />
+      <Label fx:id="fileSizeLabel" alignment="CENTER_RIGHT" layoutX="255.0" layoutY="11.0" prefHeight="15.0" prefWidth="85.0" />
+      <Label fx:id="downloadSpeedLabel" layoutX="10.0" layoutY="47.0" prefHeight="15.0" prefWidth="244.0" />
+      <Label fx:id="remainTimeLabel" alignment="CENTER_RIGHT" layoutX="255.0" layoutY="47.0" prefHeight="15.0" prefWidth="85.0" />
+      <ProgressBar fx:id="progressBar" layoutX="10.0" layoutY="33.0" maxHeight="10.0" maxWidth="330.0" minHeight="10.0" minWidth="330.0" prefHeight="10.0" prefWidth="330.0" progress="0.55" />
+   </children>
+</Pane>

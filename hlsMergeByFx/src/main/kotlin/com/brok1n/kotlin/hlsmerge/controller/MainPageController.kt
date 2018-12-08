@@ -322,7 +322,7 @@ open class MainPageController {
         var outFileDir = DataCenter.instance.outDirPath + File.separator + md5(
             DataCenter.instance.url + System.currentTimeMillis()
         ) + File.separator
-        NetManager.instance.downloadAsync(DataCenter.instance.url, outFileDir, object : OnDownloadListener{
+        NetManager.instance.downloadAsync(DataCenter.instance.url, outFileDir, object : OnDownloadListener {
             override fun ondownloadStart() {
                 Platform.runLater {
                     progressBar.progress = 0.0
