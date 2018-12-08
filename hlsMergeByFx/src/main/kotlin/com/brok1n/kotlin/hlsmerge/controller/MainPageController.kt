@@ -2,12 +2,12 @@ package com.brok1n.kotlin.hlsmerge.controller
 
 import com.brok1n.kotlin.hlsmerge.data.DataCenter
 import com.brok1n.kotlin.hlsmerge.data.TableItem
-import com.brok1n.kotlin.hlsmerge.log
-import com.brok1n.kotlin.hlsmerge.md5
+import com.brok1n.kotlin.hlsmerge.utils.log
+import com.brok1n.kotlin.hlsmerge.utils.md5
 import com.brok1n.kotlin.hlsmerge.net.NetManager
 import com.brok1n.kotlin.hlsmerge.net.OnDownloadListener
 import com.brok1n.kotlin.hlsmerge.net.OnRequestListener
-import com.brok1n.kotlin.hlsmerge.toDateTimeStr
+import com.brok1n.kotlin.hlsmerge.utils.toDateTimeStr
 import javafx.application.Platform
 import javafx.beans.property.SimpleStringProperty
 import javafx.beans.value.ObservableValue
@@ -18,17 +18,12 @@ import javafx.scene.control.*
 import javafx.stage.Stage
 import javafx.util.Callback
 import org.apache.commons.io.FilenameUtils
-import java.io.BufferedWriter
 import java.io.File
 import java.io.FileOutputStream
 import java.net.URL
 import java.util.concurrent.ConcurrentLinkedQueue
 import java.util.concurrent.CountDownLatch
 import kotlin.concurrent.thread
-import jdk.nashorn.internal.runtime.ScriptingFunctions.readLine
-import java.io.InputStreamReader
-import java.io.BufferedReader
-import java.util.*
 
 
 open class MainPageController {
@@ -185,7 +180,9 @@ open class MainPageController {
                 "M3U8文件处理完毕!  TS文件个数:${tsUrlList.size}".out()
 
 
-                var outFileDir = DataCenter.instance.outDirPath + File.separator + md5(DataCenter.instance.url) + File.separator
+                var outFileDir = DataCenter.instance.outDirPath + File.separator + md5(
+                    DataCenter.instance.url
+                ) + File.separator
 
                 File(outFileDir).mkdirs()
                 File(outFileDir, fileName).createNewFile()
@@ -322,7 +319,9 @@ open class MainPageController {
 
     fun downloadVideo(){
         "开始下载视频文件".out()
-        var outFileDir = DataCenter.instance.outDirPath + File.separator + md5(DataCenter.instance.url + System.currentTimeMillis()) + File.separator
+        var outFileDir = DataCenter.instance.outDirPath + File.separator + md5(
+            DataCenter.instance.url + System.currentTimeMillis()
+        ) + File.separator
         NetManager.instance.downloadAsync(DataCenter.instance.url, outFileDir, object : OnDownloadListener{
             override fun ondownloadStart() {
                 Platform.runLater {

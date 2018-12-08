@@ -1,11 +1,11 @@
-package com.brok1n.kotlin.hlsmerge
+package com.brok1n.kotlin.hlsmerge.utils
 
-import com.google.gson.Gson
-import java.awt.SystemColor.text
+import javafx.application.Platform
 import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.concurrent.thread
 
 
 val simpleDataFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss:SSS")
@@ -13,6 +13,28 @@ val simpleDataFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss:SSS")
 
 fun String.log(){
     println("LOG ${System.currentTimeMillis().toDateTimeStr()}:$this")
+}
+
+fun postRun( delay: Long, run: Runnable ) {
+    thread {
+        try {
+            Thread.sleep(delay)
+        }catch (e:Exception){
+            e.printStackTrace()
+        }
+        run.run()
+    }
+}
+
+fun postRunOnMainThread( delay: Long, run: Runnable ) {
+    thread {
+        try {
+            Thread.sleep(delay)
+        }catch (e:Exception){
+            e.printStackTrace()
+        }
+        Platform.runLater(run)
+    }
 }
 
 fun Long.toDateTimeStr():String {

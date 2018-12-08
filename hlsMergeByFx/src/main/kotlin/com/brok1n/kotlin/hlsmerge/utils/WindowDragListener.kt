@@ -1,4 +1,4 @@
-package com.brok1n.kotlin.hlsmerge
+package com.brok1n.kotlin.hlsmerge.utils
 
 import javafx.event.EventHandler
 import javafx.scene.Node
@@ -25,7 +25,6 @@ class WindowDragListener(var stage:Stage ): EventHandler<MouseEvent> {
                 }
             }
         }
-
     }
 
     fun enableDrag(node: Node) {

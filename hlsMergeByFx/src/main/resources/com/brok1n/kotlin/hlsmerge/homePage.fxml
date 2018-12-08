@@ -90,6 +90,7 @@
                         <Image url="@../../../../img/empty_download_list_img.jpg" />
                      </image>
                   </ImageView>
+                  <Label fx:id="homeTipLabel" alignment="CENTER" layoutY="30.0" prefHeight="30.0" prefWidth="350.0" textFill="#1e1e1e" visible="false" />
                </children>
             </Pane>
             <Pane maxHeight="1.0" maxWidth="350.0" minHeight="1.0" minWidth="350.0" prefHeight="1.0" prefWidth="350.0" style="-fx-background-color: #93C899;" />

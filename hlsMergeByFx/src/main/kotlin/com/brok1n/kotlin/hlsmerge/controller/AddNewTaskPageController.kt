@@ -1,13 +1,19 @@
 package com.brok1n.kotlin.hlsmerge.controller
 
-import com.brok1n.kotlin.hlsmerge.ModelWindow
-import com.brok1n.kotlin.hlsmerge.WindowDragListener
+import com.brok1n.kotlin.hlsmerge.utils.ModelWindow
+import com.brok1n.kotlin.hlsmerge.SELECT_OUT_DIR_TITLE
+import com.brok1n.kotlin.hlsmerge.utils.WindowDragListener
 import com.brok1n.kotlin.hlsmerge.data.DataCenter
+import com.brok1n.kotlin.hlsmerge.utils.log
 import javafx.fxml.FXML
 import javafx.scene.Scene
+import javafx.scene.control.Label
 import javafx.scene.control.TextField
 import javafx.scene.layout.Pane
+import javafx.scene.paint.Color
+import javafx.stage.DirectoryChooser
 import javafx.stage.Stage
+import java.io.File
 
 open class AddNewTaskPageController {
 
@@ -25,17 +31,78 @@ open class AddNewTaskPageController {
     @FXML
     lateinit var downloadUrl:TextField
 
+    //下载网址输入框提示文本框
+    @FXML
+    lateinit var downloadUrlTipLabel:Label
+
+    //下载文件夹输入框提示文本框
+    @FXML
+    lateinit var downloadPathTipLabel:Label
+
     fun init() {
         WindowDragListener(stage).enableDrag(titlePane)
 
         downloadPathEdt.text = DataCenter.instance.outDirPath
 
-    }
+        val outDirFile = File(DataCenter.instance.outDirPath)
+        downloadPathTipLabel.text = "总大小:${outDirFile.totalSpace/1024/1024/1024}G 可用:${outDirFile.freeSpace/1024/1024/1024}G"
 
+        DataCenter.instance.newTask = false
+
+    }
 
     @FXML
     fun onCloseBtnClicked(){
         ModelWindow.instance.hideAddNewTaskWindow()
     }
+
+    /**
+     * 选择输出目录按钮被点击
+     * */
+    @FXML
+    fun onSelectOutDirBtnClicked(){
+        val dirChooser = DirectoryChooser()
+        dirChooser.initialDirectory = File(DataCenter.instance.outDirPath)
+        dirChooser.title = SELECT_OUT_DIR_TITLE
+        val selectFile = dirChooser.showDialog(stage)
+
+        "file:$selectFile".log()
+
+        selectFile?.let {
+            DataCenter.instance.outDirPath = it.absolutePath
+            downloadPathEdt.text = it.absolutePath
+
+            downloadPathTipLabel.text = "总大小:${it.totalSpace/1024/1024/1024}G 可用:${it.freeSpace/1024/1024/1024}G"
+
+        }
+    }
+
+    /**
+     * 下载按钮被点击
+     * */
+    @FXML
+    fun onDownloadBtnClicked(){
+
+        DataCenter.instance.newTask = false
+
+        val url = downloadUrl.text.trim()
+        if ( url.length <= 15 ) {
+            //下载地址不合法
+            downloadUrlTipLabel.textFill = Color.web("#F72E12")
+            downloadUrlTipLabel.text = "下载地址不合法!"
+            return
+        } else {
+            downloadUrlTipLabel.textFill = Color.web("#000000")
+            downloadUrlTipLabel.text = ""
+        }
+
+        DataCenter.instance.downloadList.add(url)
+        DataCenter.instance.newTask = true
+        "添加一条下载任务:$url".log()
+
+        ModelWindow.instance.hideAddNewTaskWindow()
+    }
+
+
 
 }

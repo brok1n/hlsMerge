@@ -1,9 +1,11 @@
 package com.brok1n.kotlin.hlsmerge.controller
 
-import com.brok1n.kotlin.hlsmerge.ModelWindow
-import com.brok1n.kotlin.hlsmerge.WindowDragListener
 import com.brok1n.kotlin.hlsmerge.data.DataCenter
-import com.brok1n.kotlin.hlsmerge.log
+import com.brok1n.kotlin.hlsmerge.utils.ModelWindow
+import com.brok1n.kotlin.hlsmerge.utils.WindowDragListener
+import com.brok1n.kotlin.hlsmerge.utils.log
+import com.brok1n.kotlin.hlsmerge.utils.postRunOnMainThread
+import javafx.animation.ScaleTransition
 import javafx.application.Platform
 import javafx.fxml.FXML
 import javafx.scene.Scene
@@ -11,9 +13,12 @@ import javafx.scene.control.Alert
 import javafx.scene.control.Alert.AlertType
 import javafx.scene.control.ButtonType
 import javafx.scene.control.CheckBox
+import javafx.scene.control.Label
 import javafx.scene.image.ImageView
 import javafx.scene.layout.Pane
+import javafx.scene.paint.Color
 import javafx.stage.Stage
+import javafx.util.Duration
 
 
 open class HomePageController {
@@ -56,6 +61,10 @@ open class HomePageController {
     //删除按钮
     @FXML
     lateinit var deleteBtn: ImageView
+
+    //提示Label
+    @FXML
+    lateinit var homeTipLabel: Label
 
     fun init() {
         WindowDragListener(stage).enableDrag(titlePane)
@@ -140,8 +149,34 @@ open class HomePageController {
     @FXML
     fun onCreateBtnClicked(){
         "新建按钮被点击".log()
+        DataCenter.instance.newTask = false
 
         ModelWindow.instance.showAddNewTaskWindow( stage )
+        "新建按钮点击完成".log()
+
+        if ( DataCenter.instance.newTask ) {
+            //有新的下载任务
+            homeTipLabel.text = "新增一个下载任务"
+            homeTipLabel.style = "-fx-background-color: #46B9F0"
+            homeTipLabel.textFill = Color.web("#FFFFFF")
+            homeTipLabel.isVisible = true
+
+            val scaleTransition = ScaleTransition()
+            scaleTransition.duration = Duration.millis(200.0)
+            scaleTransition.node = homeTipLabel
+            scaleTransition.byX = 1.0
+            scaleTransition.fromX = 0.0
+            scaleTransition.play()
+
+            postRunOnMainThread( 2000, object : Runnable {
+                override fun run() {
+                    homeTipLabel.isVisible = false
+                }
+            })
+
+        }
+
+        DataCenter.instance.newTask = false
 
     }
 

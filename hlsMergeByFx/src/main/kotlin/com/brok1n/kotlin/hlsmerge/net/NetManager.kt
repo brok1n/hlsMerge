@@ -1,6 +1,5 @@
 package com.brok1n.kotlin.hlsmerge.net
 
-import com.brok1n.kotlin.hlsmerge.log
 import com.brok1n.kotlin.hlsmerge.okHttpClient
 import okhttp3.Call
 import okhttp3.Callback

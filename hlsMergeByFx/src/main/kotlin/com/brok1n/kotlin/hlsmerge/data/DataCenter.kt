@@ -19,6 +19,9 @@ class DataCenter {
     //下载列表
     var downloadList = ConcurrentLinkedQueue<String>()
 
+    //是否添加了新的下载任务
+    var newTask = false
+
     //历史列表
     var historyList = ConcurrentLinkedQueue<String>()
 

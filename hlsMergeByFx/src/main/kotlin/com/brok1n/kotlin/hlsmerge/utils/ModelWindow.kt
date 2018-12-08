@@ -1,11 +1,10 @@
-package com.brok1n.kotlin.hlsmerge
+package com.brok1n.kotlin.hlsmerge.utils
 
+import com.brok1n.kotlin.hlsmerge.ADD_TASK_WINDOW_TITLE
 import com.brok1n.kotlin.hlsmerge.controller.AddNewTaskPageController
-import com.brok1n.kotlin.hlsmerge.controller.HomePageController
 import javafx.fxml.FXMLLoader
 import javafx.scene.Parent
 import javafx.scene.Scene
-import javafx.scene.image.Image
 import javafx.stage.Modality
 import javafx.stage.Stage
 import javafx.stage.StageStyle
@@ -17,7 +16,7 @@ open class ModelWindow {
 
     fun showAddNewTaskWindow(owner: Stage) {
 
-        val fxmlLoader = FXMLLoader(javaClass.getResource("addNewTask.fxml"))
+        val fxmlLoader = FXMLLoader(javaClass.getResource("../addNewTask.fxml"))
         val root = fxmlLoader.load<Parent>()
 
         val window = Stage()

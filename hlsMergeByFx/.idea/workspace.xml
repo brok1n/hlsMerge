@@ -2,14 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2871fbb6-3176-45f0-b945-6e647ffcf3f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/hlsMerge_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hlsMerge_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/hlsMerge_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hlsMerge_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/ModelWindow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/ModelWindow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/hlsMerge_main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/hlsMerge_main.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/ConstantKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/ConstantKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/ExtKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/Main$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/Main$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/ModelWindow$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/ModelWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/WindowDragListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/HomePageController$out$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/HomePageController$out$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/HomePageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/HomePageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadFile$1$onDownloadFailed$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadFile$1$onDownloadFailed$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadFile$1$onDownloadSuccess$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadFile$1$onDownloadSuccess$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadFile$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadM3u8$1$onSuccess$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadM3u8$1$onSuccess$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadM3u8$1$onSuccess$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadM3u8$1$onSuccess$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadM3u8$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadM3u8$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadVideo$1$onDownloadFailed$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadVideo$1$onDownloadFailed$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadVideo$1$onDownloadSuccess$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadVideo$1$onDownloadSuccess$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadVideo$1$onDownloading$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadVideo$1$onDownloading$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadVideo$1$ondownloadStart$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadVideo$1$ondownloadStart$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadVideo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$downloadVideo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$initialize$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$initialize$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$initialize$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$initialize$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$out$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController$out$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/data/DataCenter$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/data/DataCenter$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/data/DataCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/data/DataCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/data/TableItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/data/TableItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/INet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/INet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/NetManager$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/NetManager$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/NetManager$downloadAsync$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/NetManager$downloadAsync$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/NetManager$getAsync$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/NetManager$getAsync$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/NetManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/NetManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/OnDownloadListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/OnDownloadListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/OnRequestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/brok1n/kotlin/hlsmerge/net/OnRequestListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/com/brok1n/kotlin/hlsmerge/addNewTask.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/com/brok1n/kotlin/hlsmerge/addNewTask.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Constant.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Constant.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/ModelWindow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/utils/ModelWindow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/WindowDragListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/utils/WindowDragListener.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/HomePageController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/HomePageController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/MainPageController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/MainPageController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/DataCenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/DataCenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/ext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/utils/ext.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/net/NetManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/net/NetManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/brok1n/kotlin/hlsmerge/addNewTask.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/brok1n/kotlin/hlsmerge/addNewTask.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/brok1n/kotlin/hlsmerge/homePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/brok1n/kotlin/hlsmerge/homePage.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -52,28 +97,29 @@
     <session id="19963281">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="2" />
           <entry key="gradle" value="2" />
-          <entry key="java" value="6" />
-          <entry key="kt" value="21" />
+          <entry key="java" value="8" />
+          <entry key="kt" value="30" />
           <entry key="properties" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="6" />
-          <entry key="Kotlin" value="21" />
+          <entry key="JAVA" value="8" />
+          <entry key="Kotlin" value="30" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="2" />
         </counts>
@@ -82,13 +128,13 @@
         <counts>
           <entry key="fxml" value="1" />
           <entry key="gradle" value="39" />
-          <entry key="kt" value="8832" />
+          <entry key="kt" value="10630" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="39" />
-          <entry key="Kotlin" value="8832" />
+          <entry key="Kotlin" value="10630" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -134,31 +180,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="266">
+              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/ModelWindow.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/utils/ModelWindow.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/MainPageController.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="362" selection-start-line="362" selection-end-line="362" />
-              <folding>
-                <element signature="e#47#1148#0" expanded="true" />
-                <element signature="n#!!block;n#downloadFile#0;n#!!block;n#MainPageController#0" />
-                <element signature="n#!!block;n#downloadVideo#0;n#!!block;n#MainPageController#0" />
-              </folding>
+            <state relative-caret-position="513">
+              <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -166,54 +198,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/HomePageController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2489">
-              <caret line="144" selection-start-line="144" selection-end-line="144" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="228">
+              <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
               <folding>
-                <element signature="e#47#253#0" expanded="true" />
+                <element signature="e#47#746#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/WindowDragListener.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="411">
+              <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="63" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Constant.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/DataCenter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle.properties">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -232,7 +232,11 @@
       <find>constructValue()</find>
       <find>empty</find>
       <find>h</find>
+      <find>style</find>
     </findStrings>
+    <dirStrings>
+      <dir>K:\Git\hlsMerge\hlsMergeByFx\src\main\kotlin\com\brok1n\kotlin\hlsmerge\controller</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -240,12 +244,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="D:\Tools\gradle-4.10.2" />
+        <entry key="$PROJECT_DIR$" value="K:\Tools\gradle-4.10.1" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.10.2" />
+        <entry key="$PROJECT_DIR$" value="4.10.1" />
       </map>
     </option>
     <option name="availableProjects">
@@ -442,7 +446,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="4056610230" />
-        <entry key="$PROJECT_DIR$" value="7713758575881" />
+        <entry key="$PROJECT_DIR$" value="7714180896911" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2453785831" />
         <entry key="$PROJECT_DIR$/gradle.properties" value="3650535818" />
@@ -504,156 +508,84 @@
               <option name="name" value="hlsMerge" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="D:/Tools/gradle-4.10.2/src/announce" />
-                  <option value="D:/Tools/gradle-4.10.2/src/antlr" />
-                  <option value="D:/Tools/gradle-4.10.2/src/base-services" />
-                  <option value="D:/Tools/gradle-4.10.2/src/base-services-groovy" />
-                  <option value="D:/Tools/gradle-4.10.2/src/build-cache" />
-                  <option value="D:/Tools/gradle-4.10.2/src/build-cache-http" />
-                  <option value="D:/Tools/gradle-4.10.2/src/build-comparison" />
-                  <option value="D:/Tools/gradle-4.10.2/src/build-init" />
-                  <option value="D:/Tools/gradle-4.10.2/src/build-option" />
-                  <option value="D:/Tools/gradle-4.10.2/src/cli" />
-                  <option value="D:/Tools/gradle-4.10.2/src/code-quality" />
-                  <option value="D:/Tools/gradle-4.10.2/src/composite-builds" />
-                  <option value="D:/Tools/gradle-4.10.2/src/core" />
-                  <option value="D:/Tools/gradle-4.10.2/src/core-api" />
-                  <option value="D:/Tools/gradle-4.10.2/src/dependency-management" />
-                  <option value="D:/Tools/gradle-4.10.2/src/diagnostics" />
-                  <option value="D:/Tools/gradle-4.10.2/src/docs" />
-                  <option value="D:/Tools/gradle-4.10.2/src/ear" />
-                  <option value="D:/Tools/gradle-4.10.2/src/ide" />
-                  <option value="D:/Tools/gradle-4.10.2/src/ide-native" />
-                  <option value="D:/Tools/gradle-4.10.2/src/ide-play" />
-                  <option value="D:/Tools/gradle-4.10.2/src/installation-beacon" />
-                  <option value="D:/Tools/gradle-4.10.2/src/internal-android-performance-testing" />
-                  <option value="D:/Tools/gradle-4.10.2/src/internal-integ-testing" />
-                  <option value="D:/Tools/gradle-4.10.2/src/internal-performance-testing" />
-                  <option value="D:/Tools/gradle-4.10.2/src/internal-testing" />
-                  <option value="D:/Tools/gradle-4.10.2/src/ivy" />
-                  <option value="D:/Tools/gradle-4.10.2/src/jacoco" />
-                  <option value="D:/Tools/gradle-4.10.2/src/javascript" />
-                  <option value="D:/Tools/gradle-4.10.2/src/jvm-services" />
-                  <option value="D:/Tools/gradle-4.10.2/src/language-groovy" />
-                  <option value="D:/Tools/gradle-4.10.2/src/language-java" />
-                  <option value="D:/Tools/gradle-4.10.2/src/language-jvm" />
-                  <option value="D:/Tools/gradle-4.10.2/src/language-native" />
-                  <option value="D:/Tools/gradle-4.10.2/src/language-scala" />
-                  <option value="D:/Tools/gradle-4.10.2/src/launcher" />
-                  <option value="D:/Tools/gradle-4.10.2/src/logging" />
-                  <option value="D:/Tools/gradle-4.10.2/src/maven" />
-                  <option value="D:/Tools/gradle-4.10.2/src/messaging" />
-                  <option value="D:/Tools/gradle-4.10.2/src/model-core" />
-                  <option value="D:/Tools/gradle-4.10.2/src/model-groovy" />
-                  <option value="D:/Tools/gradle-4.10.2/src/native" />
-                  <option value="D:/Tools/gradle-4.10.2/src/osgi" />
-                  <option value="D:/Tools/gradle-4.10.2/src/persistent-cache" />
-                  <option value="D:/Tools/gradle-4.10.2/src/platform-base" />
-                  <option value="D:/Tools/gradle-4.10.2/src/platform-jvm" />
-                  <option value="D:/Tools/gradle-4.10.2/src/platform-native" />
-                  <option value="D:/Tools/gradle-4.10.2/src/platform-play" />
-                  <option value="D:/Tools/gradle-4.10.2/src/plugin-development" />
-                  <option value="D:/Tools/gradle-4.10.2/src/plugin-use" />
-                  <option value="D:/Tools/gradle-4.10.2/src/plugins" />
-                  <option value="D:/Tools/gradle-4.10.2/src/process-services" />
-                  <option value="D:/Tools/gradle-4.10.2/src/publish" />
-                  <option value="D:/Tools/gradle-4.10.2/src/reporting" />
-                  <option value="D:/Tools/gradle-4.10.2/src/resources" />
-                  <option value="D:/Tools/gradle-4.10.2/src/resources-gcs" />
-                  <option value="D:/Tools/gradle-4.10.2/src/resources-http" />
-                  <option value="D:/Tools/gradle-4.10.2/src/resources-s3" />
-                  <option value="D:/Tools/gradle-4.10.2/src/resources-sftp" />
-                  <option value="D:/Tools/gradle-4.10.2/src/scala" />
-                  <option value="D:/Tools/gradle-4.10.2/src/signing" />
-                  <option value="D:/Tools/gradle-4.10.2/src/test-kit" />
-                  <option value="D:/Tools/gradle-4.10.2/src/testing-base" />
-                  <option value="D:/Tools/gradle-4.10.2/src/testing-junit-platform" />
-                  <option value="D:/Tools/gradle-4.10.2/src/testing-jvm" />
-                  <option value="D:/Tools/gradle-4.10.2/src/testing-native" />
-                  <option value="D:/Tools/gradle-4.10.2/src/tooling-api" />
-                  <option value="D:/Tools/gradle-4.10.2/src/tooling-api-builders" />
-                  <option value="D:/Tools/gradle-4.10.2/src/tooling-native" />
-                  <option value="D:/Tools/gradle-4.10.2/src/version-control" />
-                  <option value="D:/Tools/gradle-4.10.2/src/workers" />
-                  <option value="D:/Tools/gradle-4.10.2/src/wrapper" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/ant-1.9.11.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/ant-launcher-1.9.11.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-api-metadata-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-base-services-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-base-services-groovy-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-build-cache-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-build-option-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-cli-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-core-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-core-api-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-docs-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-installation-beacon-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-jvm-services-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-kotlin-dsl-1.0-rc-6.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-kotlin-dsl-provider-plugins-1.0-rc-6.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-builders-1.0-rc-6.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-models-1.0-rc-6.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-launcher-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-logging-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-messaging-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-model-core-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-model-groovy-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-native-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-persistent-cache-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-process-services-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-resources-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-runtime-api-info-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-tooling-api-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/gradle-wrapper-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/groovy-all-2.4.15.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-announce-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-antlr-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-build-cache-http-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-build-comparison-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-build-init-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-code-quality-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-composite-builds-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-dependency-management-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-diagnostics-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-ear-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-ide-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-ide-native-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-ide-play-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-ivy-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-jacoco-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-javascript-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-language-groovy-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-language-java-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-language-jvm-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-language-native-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-language-scala-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-maven-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-osgi-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-platform-base-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-platform-jvm-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-platform-native-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-platform-play-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-plugin-development-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-plugin-use-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-plugins-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-publish-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-reporting-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-resources-gcs-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-resources-http-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-resources-s3-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-resources-sftp-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-scala-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-signing-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-test-kit-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-testing-base-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-testing-junit-platform-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-testing-jvm-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-testing-native-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-tooling-api-builders-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-tooling-native-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-version-control-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/gradle-workers-4.10.2.jar" />
-                  <option value="D:/Tools/gradle-4.10.2/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/ant-1.9.11.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/ant-launcher-1.9.11.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-api-metadata-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-base-services-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-base-services-groovy-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-build-cache-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-build-option-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-cli-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-core-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-core-api-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-docs-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-installation-beacon-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-jvm-services-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-kotlin-dsl-1.0-rc-6.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-kotlin-dsl-provider-plugins-1.0-rc-6.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-kotlin-dsl-tooling-builders-1.0-rc-6.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-kotlin-dsl-tooling-models-1.0-rc-6.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-launcher-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-logging-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-messaging-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-model-core-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-model-groovy-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-native-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-persistent-cache-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-process-services-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-resources-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-runtime-api-info-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-tooling-api-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/gradle-wrapper-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/groovy-all-2.4.15.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-announce-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-antlr-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-build-cache-http-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-build-comparison-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-build-init-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-code-quality-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-composite-builds-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-dependency-management-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-diagnostics-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-ear-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-ide-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-ide-native-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-ide-play-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-ivy-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-jacoco-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-javascript-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-language-groovy-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-language-java-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-language-jvm-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-language-native-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-language-scala-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-maven-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-osgi-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-platform-base-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-platform-jvm-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-platform-native-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-platform-play-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-plugin-development-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-plugin-use-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-plugins-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-publish-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-reporting-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-resources-gcs-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-resources-http-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-resources-s3-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-resources-sftp-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-scala-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-signing-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-test-kit-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-testing-base-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-testing-junit-platform-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-testing-jvm-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-testing-native-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-tooling-api-builders-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-tooling-native-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-version-control-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/gradle-workers-4.10.1.jar" />
+                  <option value="K:/Tools/gradle-4.10.1/lib/plugins/ivy-2.2.0.jar" />
                 </list>
               </option>
             </ExternalProjectBuildClasspathPojo>
@@ -678,13 +610,15 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/net/NetManager.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/beans.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/MainPageController.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/WindowDragListener.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Main.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/DataCenter.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Constant.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/HomePageController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/ModelWindow.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Constant.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/WindowDragListener.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/utils/ModelWindow.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/DataCenter.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/utils/ext.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/HomePageController.kt" />
       </list>
     </option>
   </component>
@@ -695,10 +629,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1543" />
-    <option name="y" value="-72" />
-    <option name="width" value="1298" />
-    <option name="height" value="766" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -707,6 +641,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -763,6 +699,24 @@
               <item name="hlsMergeByFx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="hlsmerge" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hlsMerge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlsMergeByFx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="hlsmerge" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hlsMerge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlsMergeByFx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -783,21 +737,26 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544177262127" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544246036841" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="K:\Git\hlsMerge\hlsMergeByFx\src\main\kotlin\com\brok1n\kotlin\hlsmerge\utils" />
+      <recent name="K:\Git\hlsMerge\hlsMergeByFx\src\main\resources\hlsmerge" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.brok1n.kotlin.hlsmerge.controller" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.brok1n.kotlin.hlsmerge.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="K:\Git\hlsMerge\hlsMergeByFx\src\main\resources\img" />
@@ -805,9 +764,6 @@
       <recent name="K:\Git\hlsMerge\hlsMergeByFx\src\main\resources\tools" />
       <recent name="K:\Git\hlsMerge\hlsMergeByFx\src\main\resources" />
       <recent name="K:\Git\hlsMerge\hlsMergeByFx\src\main\resources\com.brok1n.kotlin.hlsmerge" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="K:\Git\hlsMerge\hlsMergeByFx\src\main\resources\hlsmerge" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -945,16 +901,17 @@
       <workItem from="1544070274545" duration="3567000" />
       <workItem from="1544102994313" duration="4951000" />
       <workItem from="1544147776099" duration="2791000" />
+      <workItem from="1544237779834" duration="7076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49028000" />
+    <option name="totallyTimeSpent" value="56104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1608" y="-137" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24614395" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -963,7 +920,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13477089" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19001086" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29533115" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -971,7 +928,7 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.29514825" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32210243" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3213898" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32884097" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -980,7 +937,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.49945712" visible="true" weight="0.12339332" />
+      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.49945712" visible="true" weight="0.12313433" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -998,7 +955,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/net/NetManager.kt</url>
-          <line>109</line>
+          <line>108</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -1046,13 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/ext.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/net/INet.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -1087,70 +1037,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/HomePageController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2489">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Constant.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="114">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/com/sun/javafx/tk/Toolkit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="880" column="25" selection-start-line="880" selection-start-column="25" selection-end-line="880" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/javafx/stage/DirectoryChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="102" column="52" lean-forward="true" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/utils/WindowDragListener.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/DataCenter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/ModelWindow.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        <state relative-caret-position="380">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/MainPageController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="682">
           <caret line="362" selection-start-line="362" selection-end-line="362" />
           <folding>
-            <element signature="e#47#1148#0" expanded="true" />
             <element signature="n#!!block;n#downloadFile#0;n#!!block;n#MainPageController#0" />
             <element signature="n#!!block;n#downloadVideo#0;n#!!block;n#MainPageController#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Main.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/utils/ext.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="513">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="e#42#242#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/WindowDragListener.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="266">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/HomePageController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+          <folding>
+            <element signature="e#47#746#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#47#253#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="411">
+          <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/utils/ModelWindow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
         </state>
       </provider>
     </entry>
