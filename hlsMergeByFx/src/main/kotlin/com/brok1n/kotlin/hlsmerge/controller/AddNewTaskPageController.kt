@@ -6,8 +6,11 @@ import com.brok1n.kotlin.hlsmerge.utils.WindowDragListener
 import com.brok1n.kotlin.hlsmerge.data.DataCenter
 import com.brok1n.kotlin.hlsmerge.data.DownloadTask
 import com.brok1n.kotlin.hlsmerge.utils.log
+import javafx.application.Platform
 import javafx.fxml.FXML
 import javafx.scene.Scene
+import javafx.scene.control.Alert
+import javafx.scene.control.ButtonType
 import javafx.scene.control.Label
 import javafx.scene.control.TextField
 import javafx.scene.layout.Pane
@@ -109,10 +112,46 @@ open class AddNewTaskPageController {
             return
         }
 
-        DataCenter.instance.downloadList.add(task)
+        val fileName = FilenameUtils.getName(URL(task.url).path)
+        val downloadBaseUrl = task.url.substring(0, task.url.indexOf(fileName) + fileName.length)
 
-        DataCenter.instance.newTask = true
-        "添加一条下载任务:$url".log()
+        var exists = false
+        for (downloadTask in DataCenter.instance.downloadList) {
+            if ( downloadTask.url.startsWith(downloadBaseUrl) ) {
+                exists = true
+            }
+        }
+
+        for (downloadTask in DataCenter.instance.historyList) {
+            if ( downloadTask.url.startsWith(downloadBaseUrl) ) {
+                exists = true
+            }
+        }
+
+        if ( exists ) {
+            //已存在相同任务
+            val alert = Alert(Alert.AlertType.CONFIRMATION)
+            alert.title = "提示"
+            alert.headerText = null
+            alert.graphic = null
+            alert.contentText = "该任务已存在, 是否重新下载?"
+
+            val result = alert.showAndWait()
+            if (result.get() == ButtonType.OK) {
+                // ... user chose OK
+                alert.close()
+                DataCenter.instance.downloadList.add(task)
+                DataCenter.instance.newTask = true
+                "添加一条下载任务:$url".log()
+            } else {
+                // ... user chose CANCEL or closed the dialog
+                alert.close()
+            }
+        } else {
+            DataCenter.instance.downloadList.add(task)
+            DataCenter.instance.newTask = true
+            "添加一条下载任务:$url".log()
+        }
 
         ModelWindow.instance.hideAddNewTaskWindow()
     }

@@ -136,6 +136,8 @@ open class HomePageController {
         } else {
             val alert = Alert(AlertType.CONFIRMATION)
             alert.title = "提示"
+            alert.headerText = null
+            alert.graphic = null
             alert.contentText = "还有未下载完毕的任务！确定要退出么？"
 
             val result = alert.showAndWait()
@@ -354,7 +356,7 @@ open class HomePageController {
                 var tsFileCount = tsUrlList.size
                 val tmpList = ConcurrentLinkedQueue<String>()
                 tmpList.addAll(tsUrlList)
-                while ( !tmpList.isEmpty() ) {
+                while ( DataCenter.instance.appIsRunning && !tmpList.isEmpty() ) {
                     val countDownLaunch = CountDownLatch(5)
                     for ( i in 1..5 ) {
                         thread {
