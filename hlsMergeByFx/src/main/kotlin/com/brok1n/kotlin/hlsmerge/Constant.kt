@@ -10,6 +10,9 @@ val APP_TITLE = "HLS(M3U8)视频下载合并工具 V0.0.1 by brok1n"
 val ADD_TASK_WINDOW_TITLE = "新建下载"
 val SELECT_OUT_DIR_TITLE = "选择文件夹"
 
+val DOWNLOAD_LABEL_TXT = "下载"
+val HISTORY_LABEL_TXT = "历史"
+
 
 val jsonType = MediaType.parse("application/json; charset=utf-8")
 val okHttpClient = OkHttpClient.Builder().connectTimeout(3, TimeUnit.SECONDS).readTimeout(10, TimeUnit.SECONDS).writeTimeout(10, TimeUnit.SECONDS).build()

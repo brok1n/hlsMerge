@@ -45,13 +45,13 @@
                      <children>
                         <Pane fx:id="downloadBtn" maxHeight="35.0" maxWidth="174.0" minHeight="35.0" minWidth="174.0" onMouseClicked="#onDownloadBtnClicked" prefHeight="35.0" prefWidth="174.0" style="-fx-background-color: #DDEEFF;">
                            <children>
-                              <Label layoutX="75.0" layoutY="10.0" text="下载" textFill="#666666" />
+                              <Label fx:id="downloadTabLabel" alignment="CENTER" layoutY="10.0" maxWidth="174.0" minWidth="174.0" prefWidth="174.0" text="下载" textFill="#666666" />
                            </children>
                         </Pane>
                         <Pane maxHeight="35.0" maxWidth="2.0" minHeight="35.0" minWidth="1.0" prefHeight="35.0" prefWidth="1.0" style="-fx-background-color: #93C8D9;" />
                         <Pane fx:id="historyBtn" maxHeight="35.0" maxWidth="174.0" minHeight="35.0" minWidth="174.0" onMouseClicked="#onHistoryBtnClicked" prefHeight="35.0" prefWidth="174.0" style="-fx-background-color: #C3E6FF;">
                            <children>
-                              <Label layoutX="75.0" layoutY="10.0" text="历史" textFill="#666666" />
+                              <Label fx:id="historyTabLabel" alignment="CENTER" layoutY="10.0" maxWidth="174.0" minWidth="174.0" prefWidth="174.0" text="历史" textFill="#666666" />
                            </children>
                         </Pane>
                      </children>
@@ -81,18 +81,18 @@
                         </ImageView>
                         <ImageView fx:id="deleteBtn" fitHeight="20.0" fitWidth="20.0" layoutX="130.0" layoutY="5.0" onMouseClicked="#onDeleteBtnClicked" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../img/delete_btn.jpg" />
+                              <Image url="@../img/delete_disable_btn.jpg" />
                            </image>
                         </ImageView>
                      </children>
                   </Pane>
-                  <Label fx:id="homeTipLabel" alignment="CENTER" layoutY="30.0" prefHeight="30.0" prefWidth="350.0" textFill="#1e1e1e" visible="false" />
-                  <ListView fx:id="downloadListView" layoutY="30.0" maxHeight="449.0" maxWidth="350.0" minHeight="449.0" minWidth="350.0" prefHeight="449.0" prefWidth="350.0" stylesheets="@../css/style.css" />
+                  <ListView fx:id="downloadListView" layoutY="30.0" maxHeight="449.0" maxWidth="350.0" minHeight="449.0" minWidth="350.0" prefHeight="449.0" prefWidth="350.0" style="-fx-background-color: #F6FBFE;" stylesheets="@../css/style.css" />
                   <ImageView fx:id="emptyTipImg" fitHeight="150.0" fitWidth="200.0" layoutX="95.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true" visible="false">
                      <image>
                         <Image url="@../img/empty_download_list_img.jpg" />
                      </image>
                   </ImageView>
+                  <Label fx:id="homeTipLabel" alignment="CENTER" layoutY="30.0" prefHeight="30.0" prefWidth="350.0" textFill="#1e1e1e" visible="false" />
                </children>
             </Pane>
             <Pane maxHeight="1.0" maxWidth="350.0" minHeight="1.0" minWidth="350.0" prefHeight="1.0" prefWidth="350.0" style="-fx-background-color: #93C899;" />

@@ -1,5 +1,7 @@
 package com.brok1n.kotlin.hlsmerge.controller
 
+import com.brok1n.kotlin.hlsmerge.DOWNLOAD_LABEL_TXT
+import com.brok1n.kotlin.hlsmerge.HISTORY_LABEL_TXT
 import com.brok1n.kotlin.hlsmerge.data.DOWNLOAD_STATUS
 import com.brok1n.kotlin.hlsmerge.data.DataCenter
 import com.brok1n.kotlin.hlsmerge.data.DownloadTask
@@ -92,6 +94,14 @@ open class HomePageController {
     @FXML
    lateinit var downloadSpeedLabel: Label
 
+    //下载选项卡下载按钮文字
+    @FXML
+    lateinit var downloadTabLabel: Label
+
+    //历史选项卡
+    @FXML
+    lateinit var historyTabLabel: Label
+
     fun init() {
         WindowDragListener(stage).enableDrag(titlePane)
 
@@ -101,7 +111,7 @@ open class HomePageController {
         }
 
 //        downloadListView.isMouseTransparent = true
-//        downloadListView.isFocusTraversable = false
+        downloadListView.isFocusTraversable = false
 
         downloadListView.items = downloadListObservableList
 
@@ -214,6 +224,9 @@ open class HomePageController {
                 emptyTipImg.isVisible = false
             }
 
+            downloadTabLabel.text = "$DOWNLOAD_LABEL_TXT(${downloadListObservableList.size})"
+            historyTabLabel.text = "$HISTORY_LABEL_TXT(${DataCenter.instance.historyList.size})"
+
             //有新的下载任务
             homeTipLabel.text = "新增一个下载任务"
             homeTipLabel.style = "-fx-background-color: #46B9F0"
@@ -289,12 +302,7 @@ open class HomePageController {
             override fun onDownloadSuccess() {
                 task.progress = 1.0
                 task.downloadStatus = DOWNLOAD_STATUS.getDownloadStatus(DOWNLOAD_STATUS.COMPLETED)
-                DataCenter.instance.downloadThreadSize.decrementAndGet()
-                postRunOnMainThread(1500, Runnable {
-                    DataCenter.instance.historyList.add(task)
-                    DataCenter.instance.downloadList.remove(task)
-                    downloadListObservableList.remove(task)
-                })
+                downloadCompleted(task)
             }
 
             override fun onDownloading(progress: Int) {
@@ -386,12 +394,8 @@ open class HomePageController {
                 "TS文件下载完毕! 共下载: $downloadCount 个TS文件".log()
                 task.progress = 1.0
                 task.downloadStatus = DOWNLOAD_STATUS.getDownloadStatus(DOWNLOAD_STATUS.COMPLETED)
-                DataCenter.instance.downloadThreadSize.decrementAndGet()
-                postRunOnMainThread(1500, Runnable {
-                    DataCenter.instance.historyList.add(task)
-                    DataCenter.instance.downloadList.remove(task)
-                    downloadListObservableList.remove(task)
-                })
+
+                downloadCompleted(task)
 
                 //视频合并
 
@@ -563,6 +567,38 @@ open class HomePageController {
         }
     }
 
+    fun downloadCompleted(task:DownloadTask){
+        DataCenter.instance.downloadThreadSize.decrementAndGet()
+        postRunOnMainThread(1500, Runnable {
+            DataCenter.instance.historyList.add(task)
+            DataCenter.instance.downloadList.remove(task)
+            downloadListObservableList.remove(task)
+
+            downloadTabLabel.text = "$DOWNLOAD_LABEL_TXT(${downloadListObservableList.size})"
+            historyTabLabel.text = "$HISTORY_LABEL_TXT(${DataCenter.instance.historyList.size})"
+
+            homeTipLabel.text = "1个任务下载完毕"
+            homeTipLabel.style = "-fx-background-color: #46B9F0"
+            homeTipLabel.textFill = Color.web("#FFFFFF")
+            homeTipLabel.isVisible = true
+
+            val scaleTransition = ScaleTransition()
+            scaleTransition.duration = Duration.millis(200.0)
+            scaleTransition.node = homeTipLabel
+            scaleTransition.byX = 1.0
+            scaleTransition.fromX = 0.0
+            scaleTransition.play()
+
+            //两秒之后 关闭提示
+            postRunOnMainThread( 2000, object : Runnable {
+                override fun run() {
+                    homeTipLabel.isVisible = false
+                }
+            })
+
+        })
+
+    }
 
     /**
      * 开始按钮被点击

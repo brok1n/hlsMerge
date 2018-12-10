@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2871fbb6-3176-45f0-b945-6e647ffcf3f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/hlsMerge_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hlsMerge_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Constant.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Constant.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/HomePageController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/HomePageController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/homePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/homePage.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -106,67 +102,65 @@
     <session id="815050377">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="1" />
-          <entry key="kt" value="5" />
+          <entry key="kt" value="6" />
           <entry key="png" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="4" />
-          <entry key="Kotlin" value="5" />
+          <entry key="Kotlin" value="6" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="1027" />
+          <entry key="kt" value="1410" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="1027" />
+          <entry key="Kotlin" value="1410" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/HomePageController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="358" column="59" selection-start-line="358" selection-start-column="59" selection-end-line="358" selection-end-column="59" />
+            <state relative-caret-position="323">
+              <caret line="123" column="30" lean-forward="true" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Constant.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="135" column="32" selection-start-line="134" selection-start-column="11" selection-end-line="135" selection-end-column="32" />
-              <folding>
-                <element signature="e#47#690#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="301">
+              <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -174,11 +168,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/net/INet.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="26" column="84" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
-              <folding>
-                <element signature="e#40#130#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="513">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -186,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/DataCenter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="328">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -222,7 +213,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/utils/DownloadTaskListCell.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="247">
               <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
               <folding>
                 <element signature="e#42#202#0" expanded="true" />
@@ -234,7 +225,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/DownloadTaskItemController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1007">
+            <state relative-caret-position="556">
               <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
               <folding>
                 <element signature="e#47#518#0" expanded="true" />
@@ -268,6 +259,10 @@
       <find>listView</find>
       <find>updatesp</find>
       <find>Alert</find>
+      <find>postRunOn</find>
+      <find>downloadCompl</find>
+      <find>Transition</find>
+      <find>downloadComplete</find>
     </findStrings>
     <dirStrings>
       <dir>K:\Git\hlsMerge\hlsMergeByFx\src\main\kotlin\com\brok1n\kotlin\hlsmerge\controller</dir>
@@ -481,9 +476,9 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="4056610230" />
-        <entry key="$PROJECT_DIR$" value="7714231129927" />
+        <entry key="$PROJECT_DIR$" value="7714811377561" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="237285873" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2453785831" />
         <entry key="$PROJECT_DIR$/gradle.properties" value="3650535818" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="4020518414" />
       </map>
@@ -640,7 +635,6 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/ext.kt" />
         <option value="$PROJECT_DIR$/src/main/resources/com/brok1n/kotlin/hlsmerge/mainPage.fxml" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/ModelWindow.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Constant.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/WindowDragListener.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/utils/DownloadTaskListViewCell.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Main.kt" />
@@ -653,11 +647,12 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/beans.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/DownloadTaskItemController.kt" />
         <option value="$PROJECT_DIR$/src/main/resources/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/DataCenter.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/net/INet.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/net/NetManager.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/DataCenter.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Constant.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/HomePageController.kt" />
       </list>
     </option>
@@ -668,11 +663,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-295" />
-    <option name="y" value="58" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2257" />
+    <option name="y" value="26" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -680,8 +675,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -764,14 +759,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hlsMerge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hlsMergeByFx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="fxml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -795,13 +782,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544288839734" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544416348655" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -839,7 +826,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.hlsMergeByFx [jar]">
+  <component name="RunManager" selected="Kotlin.com.brok1n.kotlin.hlsmerge.Main">
     <configuration name="hlsMergeByFx [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -938,8 +925,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.hlsMergeByFx [jar]" />
         <item itemvalue="Kotlin.com.brok1n.kotlin.hlsmerge.Main" />
+        <item itemvalue="Gradle.hlsMergeByFx [jar]" />
         <item itemvalue="Kotlin.TestKt" />
       </list>
     </recent_temporary>
@@ -965,16 +952,17 @@
       <workItem from="1544237779834" duration="7076000" />
       <workItem from="1544248442793" duration="29851000" />
       <workItem from="1544287963747" duration="891000" />
+      <workItem from="1544411072509" duration="3302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86846000" />
+    <option name="totallyTimeSpent" value="90148000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-295" y="58" width="1936" height="1056" extended-state="0" />
+    <frame x="-1608" y="-137" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21015424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -983,7 +971,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14766558" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.12803234" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29533115" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -991,7 +979,7 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.29514825" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3995657" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.39757413" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32884097" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1086,34 +1074,9 @@
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Constant.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/com/sun/javafx/tk/Toolkit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="880" column="25" selection-start-line="880" selection-start-column="25" selection-end-line="880" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/javafx/stage/DirectoryChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="102" column="52" lean-forward="true" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/Parent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/com/sun/javafx/tk/Toolkit.java" />
+    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/javafx/stage/DirectoryChooser.java" />
+    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/Parent.java" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-89">
@@ -1135,20 +1098,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/com/sun/javafx/tk/quantum/QuantumToolkit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="589" selection-start-line="589" selection-end-line="589" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/javafx/stage/Stage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="473" selection-start-line="473" selection-end-line="473" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/com/sun/javafx/tk/quantum/QuantumToolkit.java" />
+    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/javafx/stage/Stage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/MainPageController.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -1163,20 +1114,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/javafx/collections/ModifiableObservableListBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/src.zip!/java/util/AbstractList.java" />
+    <entry file="jar://K:/Tools/Java/jdk1.8.0_181/javafx-src.zip!/javafx/collections/ModifiableObservableListBase.java" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/beans.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1198,20 +1137,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/net/INet.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="26" column="84" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
-          <folding>
-            <element signature="e#40#130#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="627">
+          <caret line="160" column="1" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/DataCenter.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/net/INet.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="513">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -1236,9 +1172,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/utils/DownloadTaskListCell.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="247">
           <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding>
             <element signature="e#42#202#0" expanded="true" />
@@ -1248,7 +1191,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/DownloadTaskItemController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
+        <state relative-caret-position="556">
           <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
           <folding>
             <element signature="e#47#518#0" expanded="true" />
@@ -1256,27 +1199,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/AddNewTaskPageController.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/data/DataCenter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="135" column="32" selection-start-line="134" selection-start-column="11" selection-end-line="135" selection-end-column="32" />
-          <folding>
-            <element signature="e#47#690#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="328">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/Constant.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/brok1n/kotlin/hlsmerge/controller/HomePageController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="358" column="59" selection-start-line="358" selection-start-column="59" selection-end-line="358" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="123" column="30" lean-forward="true" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
         </state>
       </provider>
     </entry>
