@@ -124,19 +124,19 @@ open class MainPageController {
                 downloadM3u8()
             }
             tmpUrl.contains( ".ts") or
-                    tmpUrl.contains(".mp3") or
-                    tmpUrl.contains(".mp4") or
-                    tmpUrl.contains(".avi") or
-                    tmpUrl.contains(".rmvb") or
-                    tmpUrl.contains(".mkv") or
-                    tmpUrl.contains(".flv") or
-                    tmpUrl.contains(".vob") or
-                    tmpUrl.contains(".mpg") or
-                    tmpUrl.contains(".mpeg") or
-                    tmpUrl.contains(".3gp") or
-                    tmpUrl.contains(".mov") or
-                    tmpUrl.contains(".rm") or
-                    tmpUrl.contains(".swf")
+            tmpUrl.contains(".mp3") or
+            tmpUrl.contains(".mp4") or
+            tmpUrl.contains(".avi") or
+            tmpUrl.contains(".rmvb") or
+            tmpUrl.contains(".mkv") or
+            tmpUrl.contains(".flv") or
+            tmpUrl.contains(".vob") or
+            tmpUrl.contains(".mpg") or
+            tmpUrl.contains(".mpeg") or
+            tmpUrl.contains(".3gp") or
+            tmpUrl.contains(".mov") or
+            tmpUrl.contains(".rm") or
+            tmpUrl.contains(".swf")
             -> {
                 downloadVideo()
             }
@@ -163,7 +163,7 @@ open class MainPageController {
 
                 var tsUrlList = ConcurrentLinkedQueue<String>()
 
-                while (i < lineList.size) {
+                while (DataCenter.instance.appIsRunning && i < lineList.size) {
                     var str = lineList[i]
                     if (str.startsWith("#EXTINF:")) {
                         i++
@@ -192,7 +192,7 @@ open class MainPageController {
                 var tsFileCount = tsUrlList.size
                 val tmpList = ConcurrentLinkedQueue<String>()
                 tmpList.addAll(tsUrlList)
-                while ( !tmpList.isEmpty() ) {
+                while (DataCenter.instance.appIsRunning && !tmpList.isEmpty() ) {
                     val countDownLaunch = CountDownLatch(5)
                     for ( i in 1..5 ) {
                         thread {

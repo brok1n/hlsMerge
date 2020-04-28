@@ -27,6 +27,7 @@ import org.apache.commons.io.FilenameUtils
 import java.io.File
 import java.io.FileOutputStream
 import java.lang.Exception
+import java.lang.System.exit
 import java.net.URL
 import java.util.*
 import java.util.concurrent.ConcurrentLinkedQueue
@@ -155,7 +156,9 @@ open class HomePageController {
                 // ... user chose OK
                 alert.close()
                 DataCenter.instance.appIsRunning = false
+                stage.close()
                 Platform.exit()
+                exit(0)
             } else {
                 // ... user chose CANCEL or closed the dialog
                 alert.close()
