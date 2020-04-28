@@ -54,17 +54,24 @@ class DownloadTaskItemController {
         when(data.downloadStatus) {
             1,2,3,4,6 -> {
                 if ( data.downloadSpeed / 1024 > 1024 ) {
-                    val mb = "${data.downloadSpeed / 1024.0 / 1024.0}"
-                    var index = mb.indexOf(".")
-                    index = if ( index <= 0 ) { mb.length } else { index + 3 }
-                    if ( index >= mb.length ) index = mb.length
-                    downloadSpeedLabel.text = mb.substring(0, index) + "Mb/s"
+//                    val mb = "${data.downloadSpeed / 1024.0 / 1024.0}"
+//                    var index = mb.indexOf(".")
+//                    index = if ( index <= 0 ) { mb.length } else { index + 3 }
+//                    if ( index >= mb.length ) index = mb.length
+//                    downloadSpeedLabel.text = mb.substring(0, index) + "Mb/s"
+                    val mb = (data.downloadSpeed / 1024.0 / 1024.0 * 1000).toInt() / 1000.0
+                    downloadSpeedLabel.text = "$mb Mb/s"
+                } else if (data.downloadSpeed > 1024 ) {
+//                    val kb = "${data.downloadSpeed / 1024.0}"
+//                    var index = kb.indexOf(".")
+//                    index = if ( index <= 0 ) { kb.length } else { index + 3 }
+//                    if ( index >= kb.length ) index = kb.length
+//                    downloadSpeedLabel.text = kb.substring(0, index) + "Kb/s"
+
+                    val kb = (data.downloadSpeed / 1024.0 * 1000).toInt()  / 1000.0
+                    downloadSpeedLabel.text = "$kb Kb/s"
                 } else {
-                    val kb = "${data.downloadSpeed / 1024.0}"
-                    var index = kb.indexOf(".")
-                    index = if ( index <= 0 ) { kb.length } else { index + 3 }
-                    if ( index >= kb.length ) index = kb.length
-                    downloadSpeedLabel.text = kb.substring(0, index) + "Kb/s"
+                    downloadSpeedLabel.text = "${data.downloadSpeed} b/s"
                 }
             }
             else -> {
