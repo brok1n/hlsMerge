@@ -483,7 +483,6 @@ open class HomePageController {
         updateDownloadStatusThreadRunning = true
         thread {
             try {
-
                 while ( DataCenter.instance.appIsRunning ) {
 //                    if ( DataCenter.instance.downloadThreadSize.get() > 0 ) {
                         updateData()
